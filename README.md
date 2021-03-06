@@ -73,4 +73,17 @@ made efficient
 new Float16 type commonly used in graphics programming and machine learning
 #### Swift package manager
 Allows resources, localized resources, binary dependencies, conditional target dependencies, 
-
+## Swift 5.4
+- Source: https://www.hackingwithswift.com/articles/228/whats-new-in-swift-5-4
+#### Class or Object Member Access*
+Members can be accessed implicitly and chained to create valid expressions
+#### Variadic Parameters
+Functions can now receive multiple variadic parameters
+#### Result Builders
+Similar to function builders of swiftui. Used to create new value by passing sequence.
+#### Functions
+Nested funcitons now support overloading
+#### Property Wrappers*
+Property wrappers are now supported by local variables
+#### Packages
+Packages now support declaration of executable targets

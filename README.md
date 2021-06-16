@@ -80,10 +80,42 @@ Members can be accessed implicitly and chained to create valid expressions
 #### Variadic Parameters
 Functions can now receive multiple variadic parameters
 #### Result Builders
-Similar to function builders of swiftui. Used to create new value by passing sequence.
+Similar to function builders of swiftui. Used to create new value by passing sequence
 #### Functions
 Nested funcitons now support overloading
 #### Property Wrappers*
 Property wrappers are now supported by local variables
 #### Packages
 Packages now support declaration of executable targets
+## Swift 5.5
+- Source: https://www.hackingwithswift.com/articles/228/whats-new-in-swift-5-5
+#### Async/Await*
+Async await code instead of callbacks, closures for asynchronous code. Makes the code look synchronous
+#### Async/Await Sequence*
+Asynchronous sequences. Allows to handle sequences of values generated over time
+#### read-only properties*
+Read-only properties support async and throws
+#### Concurrency*
+Structured concurrency. Uses Task and Task groups. Supports async/await
+#### async let binding*
+Better way of doing dispatch group. Also supports throwing errors
+#### Continuations*
+Allows interfacing completion handler style async code with new async features
+#### Actors*
+Allows to create thread safe concurrent classes
+#### Global Actors*
+@MainActor allows to mark methods and properties to access on main thread
+#### Sendable and @Sendable
+Allows data to be safely transferred to another thread
+#### #if postfix member expression
+change modifier based on platform
+#### CGFloat and Double*
+Now interchangeable
+#### Enums
+Codable synthesis for enums with associated values
+#### Lazy*
+Lazy works in local contexts like methods
+#### Property wrapper
+Extended to parameters in methods and closures
+#### Static Member*
+Extends static member lookup for members of protocols in generic contexts
